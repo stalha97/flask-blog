@@ -1,0 +1,21 @@
+{% extends "layout.html" %} {% block content %}
+
+<div class="row">
+  <h1>Profile Page</h1>
+</div>
+
+<div class="row">
+  <div class="col s4">
+    <img src="{{url_for('static',filename='images/talhaa.jpg')}}" />
+  </div>
+
+  <div class="col s6">
+    <p>
+      I am a very simple card. I am good at containing small bits of
+      information. I am convenient because I require little markup to use
+      effectively.
+    </p>
+  </div>
+</div>
+
+{% endblock content %}

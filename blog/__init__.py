@@ -28,10 +28,10 @@ def home():
     # return "<h1>Home Page</h1>"
 
 
-@app.route("/about")
-def about():
-    return render_template("about.html")
-    # return "<h1>About Page</h1>"
+@app.route("/profile")
+def profile():
+    return render_template("profile.html")
+    # return "<h1>Profile Page</h1>"
 
 
 @app.route("/login")
